@@ -1,1 +1,10 @@
 hii this is fun text file
+this is upadetd bt amith 
+const Greetings = (props) => {
+    return <h1>Hello, {props.name}!</h1>;
+};
+
+// OR 
+function Greetings(props) {
+    return <h1>Hello, {props.name}!</h1>;
+}
